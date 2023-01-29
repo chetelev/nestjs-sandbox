@@ -1,6 +1,5 @@
 import { TaskStatus } from '../task-status.enum';
 
-export class GetTaskFilterDto {
+export class UpdateTaskStatusDto {
   status: TaskStatus;
-  search: string;
 }
